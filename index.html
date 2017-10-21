@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Profile page for WhiteBombo">
     <meta name="author" content="WhiteBombo">
-    <link rel="icon" href="https://avatars3.githubusercontent.com/u/23024310">
+    <link rel="icon" type="image/png" href="/static/favicon.png" />
 
     <title>Cover Template for Bootstrap</title>
 
@@ -19,42 +19,78 @@
 
   <body>
 
-    <div class="site-wrapper">
+    <!-- header/top navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">WhiteBombo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-          <header class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">Cover</h3>
-              <nav class="nav nav-masthead">
-                <a class="nav-link active" href="#">Home</a>
-                <a class="nav-link" href="#">Features</a>
-                <a class="nav-link" href="#">Contact</a>
-              </nav>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GitHub</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="https://github.com/WhiteBombo/BomboCogs">BomboCogs</a>
+              <a class="dropdown-item" href="https://github.com/WhiteBombo/TaskTimer">TaskTimer</a>
+              <a class="dropdown-item" href="https://github.com/WhiteBombo/TwitchFetchScripts">TwitchFetchScripts</a>
             </div>
-          </header>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
 
-          <main role="main" class="inner cover">
-            <h1 class="cover-heading">Cover your page.</h1>
-            <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-            <p class="lead">
-              <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-            </p>
-          </main>
+    <main role="main" class="container" style="margin-top: 100px; margin-bottom: 100px">
 
-          <footer class="mastfoot">
-            <div class="inner">
-              <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-            </div>
-          </footer>
-
+      <div class="starter-template text-center">
+        <div class="h1">Hello there!</div>
+        <div class="p lead">Welcome to my profile page.<br>Feel free to mosey around the place.<br>Further information for contact and the such are under <a href="#">'contact'</a>.
         </div>
-
       </div>
 
-    </div>
+    </main><!-- /.container -->
+
+    <!-- footer/bottom navbar -->
+    <nav class="navbar fixed-bottom navbar-expand navbar-dark bg-dark text-right">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+          <li class="nav-item dropup">
+            <a class="nav-link dropdown-toggle" href="https://getbootstrap.com" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropup</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown10">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
