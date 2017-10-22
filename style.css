@@ -5,24 +5,44 @@ body {
 
 .background-image {
     background-image: url('static/autumn-background.jpeg');
-    background-position: center top;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-size: 100vw;
+    background-size: auto 2000px;
     display: block;
-    filter: brightness(30%) blur(3px) saturate(25%);
+    filter:
+        hue-rotate(345deg)
+        contrast(10)
+        brightness(.2)
+        saturate(.2)
+        blur(7px);
     height: 100vh;
     left: 0;
     position: fixed;
     right: 0;
-    z-index: 1;
+    z-index: -1;
 }
 
-#content {
+#hover {
     width: 100vw;
-    height: auto;
+    height: 1000px;
     left: 0;
     position: fixed;
     right: 0;
     z-index: 2;
     color: white;
+}
+
+#content {
+    padding-top: 100px;
+    display: absolute;
+    left: 0;
+    position: static;
+    right: 0;
+    z-index: 3;
+    //color: white;
+}
+
+#card-text {
+  color: black !important;
+  z-index: 4;
 }
