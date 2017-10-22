@@ -27,7 +27,7 @@
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
       <div class="container">
         <div class="image-responsive" style="width: 60px" >
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="index.html">
             <img src="static/logo.png" alt="WhiteBombo logo" height="48px" class="d-inline-block align-top">
           </a>
         </div>
@@ -38,10 +38,10 @@
 
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-            </li>
             <li class="nav-item">
+              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
             <!--
@@ -66,30 +66,50 @@
       </div>
     </nav>
 
-    <div id="hover" style="top: 30%">
+    <div id="content" style="padding-bottom: 100px">
       <main role="main" class="container">
-
         <div class="starter-template text-center">
-          <div class="h1">Hello there!</div>
-          <div class="p lead">Welcome to my profile page.<br>Feel free to mosey around the place.<br>Further information for contact and the such are under <a href="contact.html">'contact'</a>.
+            <div class="h1" style="color: white">Contact info</div>
+            <div class="container">
+              <div class="row">
+                <div class="col-8 col-md-6 col-lg-4 ml-auto mr-auto" style="padding-bottom: 30px">
+                  <div class="card">
+                    <img class="card-img-top" src="static/entypo/twitter.svg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Twitter</h4>
+                      <p class="card-text">Check out my Twitter profile and throw a follow.</p>
+                      <!--<a href="https://www.twitter.com/whitebombo" class="btn btn-primary">Visit</a><br>-->
+                      <!--<a href="https://twitter.com/whitebombo?ref_src=twsrc%5Etfw" class="twitter-follow-button btn btn-primary" data-size="large" data-show-count="false"><img src="static/entypo/twitter.svg" height="20px" style="filter: invert(1)" alt="Twitter logo">Follow</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>-->
+                      <a href="https://twitter.com/whitebombo?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                  </div>
+                </div>
+                <!--<div class="col-8 col-md-6 col-lg-4 ml-auto mr-auto" style="padding-bottom: 30px">
+                  <div class="card">
+                    <img class="card-img-top" src="static/entypo/twitter.svg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Visit</a>
+                      <a href="#" class="btn btn-primary">Follow</a>
+                    </div>
+                  </div>
+                </div>-->
+              </div>
+            </div>
+          <!--<div class="">
+            <a href="https://www.twitter.com/whitebombo">
+              <img src="static/entypo/twitter.svg" height="30px" style="filter: invert(1)" alt="Twitter logo"> Twitter
+            </a>
           </div>
+          <div class="p lead">
+            <img src="static/entypo/twitter.svg" height="30px" style="filter: invert(1)" alt="Twitter logo"> Twitter
+          </div>-->
         </div>
 
       </main><!-- /.container -->
+
     </div>
-
-    <!--<div id="content">
-      <main role="main" class="container">
-
-        <div class="starter-template text-center">
-          <div class="h1">Hello there!</div>
-          <div class="p lead">Welcome to my profile page.<br>Feel free to mosey around the place.<br>Further information for contact and the such are under <a href="#">'contact'</a>.
-          </div>
-        </div>
-
-      </main>
-
-    </div>-->
 
     <!-- footer/bottom navbar -->
     <nav class="navbar fixed-bottom navbar-expand navbar-dark bg-dark text-right">
