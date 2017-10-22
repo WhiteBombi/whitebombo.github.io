@@ -1,0 +1,28 @@
+body {
+    background: black;
+    font-family: 'Lato', sans-serif;
+}
+
+.background-image {
+    background-image: url('static/autumn-background.jpeg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    display: block;
+    filter: brightness(30%) blur(3px) saturate(25%);
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 1;
+}
+
+#content {
+    width: 100vw;
+    height: auto;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 2;
+    color: white;
+}
